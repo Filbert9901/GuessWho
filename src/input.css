@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .character-box {
+    @apply h-48 w-48 border border-red-500  bg-cover bg-center hover:cursor-pointer;
+  }
+  .character-container {
+    @apply flex flex-col items-center;
+  }
+}
