@@ -9,4 +9,72 @@
   .character-container {
     @apply flex flex-col items-center;
   }
+
+  .head {
+    width: 300px;
+    height: 225px;
+    background: black;
+    border-radius: 450px / 350px;
+  }
+
+  .head-icon {
+    width: 65px;
+    height: 65px;
+    background: #f57db3;
+  }
+
+  .head-icon-eye {
+    width: 11px;
+    height: 16px;
+    background: black;
+  }
+
+  .head-icon-teeth {
+    width: 25px;
+    height: 12px;
+    background: repeating-linear-gradient(
+      90deg,
+      #f57db3 0%,
+      #f57db3 30%,
+      black 30%,
+      black 45%,
+      #f57db3 45%,
+      #f57db3 55%,
+      black 55%,
+      black 70%,
+      #f57db3 70%,
+      #f57db3 100%
+    );
+  }
+  .eye {
+    width: 25px;
+    height: 40px;
+    background: black;
+  }
+
+  .eye-cover {
+    width: 25px;
+    height: 10px;
+    background: white;
+  }
+
+  .lash-top {
+    width: 35px;
+    height: 4px;
+    background: black;
+  }
+  .lash-bottom {
+    width: 15px;
+    height: 4px;
+    background: black;
+  }
+
+  .mouth {
+    width: 60px;
+    height: 60px;
+    border: solid 4px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 60px 60px 0 0;
+    transform: scaleX(-1) scaleY(-1);
+  }
 }

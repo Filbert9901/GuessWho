@@ -23,6 +23,9 @@ module.exports = {
         "doctor-strange": "url('/images/doctor-strange.jpg')",
         "hawkeye": "url('/images/hawkeye.jpg')",
       },
+      top:{
+       "custom": "10%",
+      }
     },
   },
   plugins: ["prettier-plugin-tailwindcss"],
