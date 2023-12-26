@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}", "./**/*.{html,js}"],
+
   theme: {
     extend: {
       backgroundImage: {
@@ -14,18 +15,18 @@ module.exports = {
         "star-lord": "url('/images/star-lord.jpg')",
         groot: "url('/images/groot.jpg')",
         "green-arrow": "url('/images/green-arrow.jpg')",
-        "batman": "url('/images/batman.jpg')",
-        "superman": "url('/images/superman.jpg')",
-        "joker": "url('/images/joker.jpg')",
+        batman: "url('/images/batman.jpg')",
+        superman: "url('/images/superman.jpg')",
+        joker: "url('/images/joker.jpg')",
         "wonder-woman": "url('/images/wonder-woman.jpg')",
         "harley-quinn": "url('/images/harley-quinn.jpg')",
-        "supergirl": "url('/images/supergirl.jpg')",
+        supergirl: "url('/images/supergirl.jpg')",
         "doctor-strange": "url('/images/doctor-strange.jpg')",
-        "hawkeye": "url('/images/hawkeye.jpg')",
+        hawkeye: "url('/images/hawkeye.jpg')",
       },
-      top:{
-       "custom": "10%",
-      }
+      top: {
+        custom: "10%",
+      },
     },
   },
   plugins: ["prettier-plugin-tailwindcss"],
